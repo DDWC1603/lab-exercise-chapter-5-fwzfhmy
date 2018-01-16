@@ -1,26 +1,31 @@
-//complete the program below
-//its a program to find the average value.
+//Muhammad Fawwaz Fahmi bin Mohd Kafii
+//A17DW0064
+#include <iostream>
+using namespace std;
+
+double avg(double x,double y);
 
 int main()
 {
-	double m=0.0;
-	double n=0.0;
+	double v1=0.0;
+	double v2=0.0;
+	double result;
 
 	cout<<"Enter first number"<<endl;
-	
+		cin >> v1;
 	cout<<"Enter second number"<<endl;
-	
-	std::cin.get();
+		cin >> v2;
 
-	cout<<"Average is: "<</*function here*/<<endl;
-	
-	
-	
+			result = avg(v1,v2);
+	cout<<"Average is: "<< result <<endl;
 }
 
 double avg(double x,double y)
 {
-	/*return the average value of x and y*/
+	double average;
 
-	
+	average = (x+y)/2;
+
+		return average;
+
 }
